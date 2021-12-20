@@ -94,7 +94,7 @@ Select
 	SUM(CONVERT(int,vac.new_vaccinations)) 
 		OVER (Partition by dea.Location Order by dea.location, dea.Date) as RollingPeopleVaccinated
 From PortfolioProject..CovidDeaths as dea
-Join PortfolioProject..CovidVaccinations as vac
+Join PortfolioProject..Covid_Vaccinations as vac
 	On dea.location = vac.location
 	and dea.date = vac.date
 where dea.continent is not null 
