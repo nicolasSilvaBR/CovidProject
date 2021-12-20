@@ -9,8 +9,8 @@ Skills used:
 	Converting Data Types
 
 Database Name: CovidProject
-Tables Names:[dbo].[Covid_Deaths],
-			 [dbo].[Covid_Vacinnations]
+Tables Names: [dbo].[Covid_Deaths],
+	      [dbo].[Covid_Vacinnations]
 
 */
 
